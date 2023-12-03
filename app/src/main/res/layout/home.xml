@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="F5F5F5">
+
+
+    <View
+        android:layout_width="360dp"
+        android:layout_height="153dp"
+        android:background="@drawable/card"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <View
+        android:layout_width="30dp"
+        android:layout_height="153dp"
+        android:background="@drawable/vertical_card"
+        tools:layout_editor_absoluteX="381dp"
+        tools:layout_editor_absoluteY="97dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hair Specialist"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="528dp" />
+
+    <TextView
+        android:layout_width="221dp"
+        android:layout_height="41dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Nadeem"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+    <TextView
+        android:layout_width="141dp"
+        android:layout_height="30dp"
+        android:background="@drawable/pinkborder"
+        android:gravity="center"
+        android:text="Get Upto 50% off"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="211dp" />
+
+    <TextView
+        android:layout_width="93dp"
+        android:layout_height="27dp"
+        android:text="Hi"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="18dp" />
+
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="90dp"
+        android:background="@drawable/background"
+        android:backgroundTint="#90FFFFFF"
+        android:backgroundTintMode="src_over"
+        android:gravity="center"
+        android:text="Makeup"
+        tools:layout_editor_absoluteX="285dp"
+        tools:layout_editor_absoluteY="422dp" />
+
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="90dp"
+        android:background="@drawable/background"
+        android:backgroundTint="#90FFFFFF"
+        android:backgroundTintMode="src_over"
+        android:gravity="center"
+        android:text="Hair dryer"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="422dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Categories"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="281dp" />
+
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="90dp"
+        android:background="@drawable/background"
+        android:backgroundTint="#90FFFFFF"
+        android:backgroundTintMode="src_over"
+        android:gravity="center"
+        android:text="Hair Style"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="319dp" />
+
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="90dp"
+        android:background="@drawable/background"
+        android:backgroundTint="#90FFFFFF"
+        android:backgroundTintMode="src_over"
+        android:gravity="center"
+        android:text="Shampoo"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="319dp" />
+
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="90dp"
+        android:background="@drawable/background"
+        android:backgroundTint="#90FFFFFF"
+        android:backgroundTintMode="src_over"
+        android:gravity="center"
+        android:text="Facial"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="422dp" />
+
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="90dp"
+        android:background="@drawable/background"
+        android:backgroundTint="#90FFFFFF"
+        android:backgroundTintMode="src_over"
+        android:gravity="center"
+        android:text="Hair Spa"
+        tools:layout_editor_absoluteX="285dp"
+        tools:layout_editor_absoluteY="319dp" />
+
+    <ImageView
+        android:layout_width="57dp"
+        android:layout_height="54dp"
+        android:background="@drawable/profile"
+        android:src="@drawable/baseline_account_circle_24"
+        tools:layout_editor_absoluteX="338dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <TextView
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:text="@string/moto"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="144dp" />
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="668dp"
+        android:background="#FF5B5B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:menu="@menu/bottom_navigation_menu" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
